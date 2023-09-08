@@ -1,0 +1,30 @@
+.main-nav{
+    background-color: hwb(205 5% 2%);
+    margin: 0;
+    list-style: none;
+    padding-left: 0%;
+    text-align: center;
+
+}
+
+.main-nav-item{
+    display: inline-block;
+}
+
+.main-nav-item a{
+    color: hsl(45, 40%, 98%);
+    text-decoration: none;
+    padding: 15px 100px;
+    display: block;
+    border-right: 1px solid #ffffff;
+}
+
+.main-nav-item a:hover{
+    background-color: #ffffff;
+    color: rgb(7, 7, 6);
+}
+
+.main-nav-item a:active{
+    background-color: #ffffff;
+    color: #630af2;
+}
